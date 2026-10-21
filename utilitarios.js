@@ -33,3 +33,17 @@ function recuperaraTexto(idComponente){
         componente.src = rutaImagen;
     
     }
+
+    function generarEnteroAleatorio(minimo, maximo){
+    let rango;
+    let numeroDecimal;
+    let numeroEntero;
+    let numeroAleatorio;
+
+    rango = maximo - minimo + 1;
+    numeroDecimal = Math.random() * rango;
+    numeroEntero = Math.floor(numeroDecimal);
+    numeroAleatorio = numeroEntero + minimo;
+
+    return numeroAleatorio;
+    }
