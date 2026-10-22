@@ -21,7 +21,9 @@ function generarAleatorios() {
 
             }
 
-             console.log(aleatorios);
+             //console.log(aleatorios);
+             mostrarResultados(aleatorios);
+
 
         } else {
         alert("Ingrese un numero entre 5 y 20");
